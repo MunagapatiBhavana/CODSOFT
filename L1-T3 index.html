@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h1 class="my-h1">Designed by Bhavana</h1>
+    </nav>
+    <section id="home">
+        <h1 class="my-h">Enhanced Scientific Calculator</h1>
+        <p class="my-p">What operation would you like to perform?</p>
+        <select id="operation-select">
+            <option value="" disabled selected>Select an operation</option>
+            <option value="basic">Basic Operations</option>
+            <option value="trigonometry">Trigonometric Functions</option>
+            <option value="logarithm">Logarithms</option>
+            <option value="power">Power Functions</option>
+        </select>
+    </section>
+    <section id="calculator">
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="buttons">
+                <button class="button" data-value="7">7</button>
+                <button class="button" data-value="8">8</button>
+                <button class="button" data-value="9">9</button>
+                <button class="button operator" data-value="/">/</button>
+                <button class="button" data-value="4">4</button>
+                <button class="button" data-value="5">5</button>
+                <button class="button" data-value="6">6</button>
+                <button class="button operator" data-value="*">*</button>
+                <button class="button" data-value="1">1</button>
+                <button class="button" data-value="2">2</button>
+                <button class="button" data-value="3">3</button>
+                <button class="button operator" data-value="-">-</button>
+                <button class="button" data-value="0">0</button>
+                <button class="button" data-value=".">.</button>
+                <button class="button" data-value="C">C</button>
+                <button class="button operator" data-value="+">+</button>
+                <button class="button equals" data-value="=">=</button>
+                <button class="button operator" data-value="sin">sin</button>
+                <button class="button operator" data-value="cos">cos</button>
+                <button class="button operator" data-value="tan">tan</button>
+                <button class="button operator" data-value="log">log</button>
+                <button class="button operator" data-value="ln">ln</button>
+                <button class="button operator" data-value="^">^</button>
+                <button class="button operator" data-value="sqrt">√</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="my-h2">About</h2>
+        <p class="my-p">This is a scientific calculator with enhanced design and features, including trigonometric, logarithmic, and power functions.An enhanced scientific calculator is an advanced tool designed for more complex mathematical and scientific computations than standard scientific calculators. These devices typically offer a range of features and functions to assist users in solving higher-level mathematics, engineering, physics, and statistics problems. Here are some key features and functionalities of enhanced scientific calculators:
+            Advanced Mathematical Functions |
+            Statistical Functions |
+            Equation Solvers |
+            User Interface
+        </p>
+    </section>
+    <section id="contact">
+        <h2 class="my-h2">Contact</h2>
+        <p class="my-p">For inquiries, please contact us at info@calculator.com.</p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
