@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/db94auffn/image/upload/v1717838003/pngtree-vector-background-of-scientific-and-technological-system-for-calculating-complex-data-image_1298991_x7r5or.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Exo 2", sans-serif;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #7d0e0e;
+}
+.my-h1 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    text-align: right;
+    padding-right: 10px;
+}
+section {
+    
+    padding: 20px;
+    color: rgb(191, 36, 36);
+    text-align: center;
+
+}
+.my-h {
+    color: red;
+    font-size: 40px;
+    font-family: "Arvo", serif;
+    text-align: center;
+}
+.my-h2 {
+    color:red;
+    font-family: "Exo 2", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.my-p {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.calculator {
+    width: 800px;
+    margin: 50px 0 50px 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.button {
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d4d4d4;
+}
+
+.operator {
+    background-color: #f9a825;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #f57f17;
+}
+
+.equals {
+    background-color: #4caf50;
+    color: white;
+    grid-column: span 4;
+}
+
+.equals:hover {
+    background-color: #388e3c;
+}
+
+#operation-select {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+}
